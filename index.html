@@ -5,6 +5,9 @@ const board = Chessboard('board', {
   onDrop: handleMove,
 });
 
+cd src
+make -j profile-build
+
 // Timer variables
 let time = 300; // 5 minutes in seconds
 let increment = 5; // 5 seconds increment
